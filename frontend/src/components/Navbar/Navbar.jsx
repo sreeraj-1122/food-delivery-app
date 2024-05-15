@@ -63,7 +63,7 @@ const Navbar = ({ setShowLogin }) => {
         </a>
       </ul>
       <div className="flex justify-between items-center sm:gap-9 gap-5  ">
-        <img className="w-6" src={assets.search_icon} alt="" />
+        {/* <img className="w-6" src={assets.search_icon} alt="" /> */}
         <div className="relative">
           <Link to="/cart">
             <img className="w-6" src={assets.basket_icon} alt="" />

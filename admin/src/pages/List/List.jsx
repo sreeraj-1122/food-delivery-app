@@ -24,7 +24,7 @@ const List = () => {
   };
   useEffect(() => {
     fetchList();
-  }, []);
+  }, []); 
   return (
     <div className="w-3/4 mx-auto mt-10">
       <p className="text-lg mb-3 font-semibold">All Foods List</p>
